@@ -1,0 +1,12 @@
+{
+  "name": "json-server-render",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}

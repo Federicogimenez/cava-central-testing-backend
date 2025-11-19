@@ -1,0 +1,10 @@
+{
+  "products": [
+    { "id": 1, "name": "Malbec Reserva", "price": 4500 },
+    { "id": 2, "name": "Cabernet Gran Selección", "price": 5200 }
+  ],
+  "categories": [
+    { "id": 1, "name": "Tintos" },
+    { "id": 2, "name": "Blancos" }
+  ]
+}
