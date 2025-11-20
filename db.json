@@ -1,10 +1,128 @@
 {
-  "products": [
-    { "id": 1, "name": "Malbec Reserva", "price": 4500 },
-    { "id": 2, "name": "Cabernet Gran Selección", "price": 5200 }
+   "items": [
+    {
+      "id": "achaval-ferrer-malbec",
+      "name": "Achaval Ferrer Malbec Mendoza 2019",
+      "brand": "Achaval Ferrer",
+      "price": 22500,
+      "image": ["/vinos/achaval.png"],
+      "description": "El vino forma parte de la línea clásica de Achaval Ferrer, creada para mostrar la autenticidad del Malbec mendocino. La cosecha 2019 destaca por su frescura, intensidad frutal, notas florales, taninos suaves y un final elegante.",
+      "year": 2024,
+      "stock": 3,
+      "category": "vinos"
+    },
+    {
+      "id": "chacra-patagonia",
+      "year": 2021,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Chacra Patagonia Cincuenta y Cinco Pinot Noir 2024",
+      "brand": "chacra",
+      "price": 120000,
+      "image": ["/vinos/chacra.jpg"],
+      "description": "El “Cincuenta y Cinco 2024” es un Pinot Noir cultivado en viñedos plantados en 1955 sobre suelos de guijarros en Mainqué, Patagonia Argentina. Se elaboró con mínima intervención, fermentación con altas proporciones de racimo entero, crianza de aproximadamente 11 meses (50 % hormigón / 50 % barricas de segundo uso). Vino elegante y tenso, aromas florales de violeta y lavanda, frutas rojas frescas, mineralidad marcada y taninos finos."
+    },
+    {
+      "id": "anaia-gran-cabernet-franc",
+      "year": 2020,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Anaia Gran Cabernet Franc",
+      "brand": "Anaia Wines",
+      "price": 22000,
+      "image": ["/vinos/anaia.png"],
+      "description": "El vino “Gran Cabernet Franc 2021” es una edición de alta gama de Anaia que busca capturar el terruño de Agrelo (Luján de Cuyo). Las uvas fueron cosechadas manualmente y fermentadas en mates de hormigón sin epoxi, con levaduras indígenas. Posteriormente, el vino descansó durante 12 meses en barricas de roble francés. Se presenta con un color rojo rubí, notas de pimiento asado, especias sutiles y fruta roja madura, acompañadas por taninos elegantes y buen volumen."
+    },
+    {
+      "id": "dias-perfectos",
+      "year": 2010,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Dias Perfectos Malbec 2020",
+      "brand": "Cru de Montaña",
+      "price": 35000,
+      "image": ["/vinos/dias-perfectos.png"],
+      "description": "El Malbec 2020 “Días Perfectos” proviene de viñedos de 60 años en El Peral, Valle de Uco, Mendoza. Fermentado en pileta de cemento sin paso por madera, este vino destaca por su energía, pureza de fruta fresca, y matices salinos y florales."
+    },
+    {
+      "id": "cuatro-gatos-locos",
+      "year": 2022,
+      "stock": 3,
+      "category": "vinos",
+      "name": "4 Gatos Locos Esencial Miau Malbec Gualtallary Valle de Uco",
+      "brand": "4 Gatos Locos",
+      "price": 22000,
+      "image": ["/vinos/4gatos-locos.png"],
+      "description": "4 Gatos Locos es un proyecto fundado por Gabriel Bloise, Facundo Bonamaizon, Mariana Salas y Juan Pelizzatti, a partir de un viñedo de 20 hectáreas en Alto Gualtallary (Valle de Uco, Mendoza). El Miau Esencial Malbec 2022 es un vino orgánico en proceso de certificación, de estilo fresco y frutado, con uvas de Gualtallary, fermentación natural y crianza principalmente en piletas de hormigón, sin paso por roble o con mínima madera."
+    },
+    {
+      "id": "paraje-altamira-cabernet-franc",
+      "year": 2018,
+      "stock": 3,
+      "category": "vinos",
+      "name": "2km Paraje Altamira Cabernet Franc Valle de Uco",
+      "brand": "Finca Beth",
+      "price": 30000,
+      "image": ["/vinos/2km.png"],
+      "description": "El viñedo de Finca Beth está ubicado en Paraje Altamira, en el departamento de San Carlos, una región de excelentes características para el cultivo de la vid y abarca unas 60 hectáreas..."
+    },
+    {
+      "id": "achaval-ferrer",
+      "year": 2018,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Achaval Ferrer Malbec",
+      "brand": "Achaval Ferrer",
+      "price": 22500,
+      "image": ["/vinos/achaval.png"],
+      "description": "El vino forma parte de la línea clásica de Achaval Ferrer, creada para mostrar la autenticidad del Malbec mendocino..."
+    },
+    {
+      "id": "altos-las-hormigas-blanco",
+      "year": 2018,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Altos Las Hormigas Blanco 2023",
+      "brand": "Altos Las Hormigas",
+      "price": 14000,
+      "image": ["/vinos/altos-las-hormigas.png"],
+      "description": "El vino Blanco 2023 es un corte igualitario de Semillón, Chenin Blanc y Pedro Giménez..."
+    },
+    {
+      "id": "angelica-zapata",
+      "year": 2006,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Angelica Zapata",
+      "brand": "Catena Zapata",
+      "price": 45000,
+      "image": ["/vinos/angelica-zapata.jpg"],
+      "description": "El vino “Angélica Zapata Malbec Alta 2019” es un blend de uvas Malbec provenientes de varios viñedos de altura..."
+    },
+    {
+      "id": "noemia-malbec",
+      "year": 2008,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Bodega Noemia Patagonia Malbec 2022",
+      "brand": "Noemia",
+      "price": 300000,
+      "image": ["/vinos/noemia.jpeg"],
+      "description": "El Malbec 2022 de Noemía es un vino orgánico y biodinámico de la región de Patagonia, Argentina..."
+    },
+    {
+      "id": "chacra-cabernet",
+      "year": 2006,
+      "stock": 3,
+      "category": "vinos",
+      "name": "Chacra Cabernet Sauvignon Patagonia 2023",
+      "brand": "Chacra",
+      "price": 90000,
+      "image": ["/vinos/chacra-cabernet.jpeg"],
+      "description": "Este Chacra Cabernet Sauvignon 2023 proviene de viñedos biodinámicos de la Patagonia argentina..."
+    }
   ],
   "categories": [
-    { "id": 1, "name": "Tintos" },
-    { "id": 2, "name": "Blancos" }
+    { "id": 1, "name": "vinos" }
   ]
 }
