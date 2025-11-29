@@ -4,9 +4,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "dev": "node server.js",
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "json-server": "^0.17.4"
   }
 }
